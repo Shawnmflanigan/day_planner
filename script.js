@@ -9,6 +9,7 @@ function compareTime() {
     let currentTime = moment().hour();
     $('.time-block').each(function(){
         let newTime = $(this).children('.hour').attr('id');
+//if current time is past present or future change class to access css styling        
         if (newTime < currentTime) {
             $(this).addClass('past');
         }
@@ -25,13 +26,23 @@ function compareTime() {
     }) 
     console.log(currentTime)
 }
+
+// Run compareTime Function
 compareTime ();
+// Refresh compareTime Function every 10 minutes
 setInterval (compareTime, 100000);
 
+// save button 
+$('.saveBtn').on('click', function() {
+    var value = $(this).prev('.data').val();
     
-    //if current time is past present or future change class to access css styling
-    //write function to allow input into data class
-    //write function for save button
-        //print text when save button is clicked
+    var time = $(this).siblings('.hour' ).text();
+//store in local storage
+    
+   localStorage.setItem(time, value);
+
+})
+
+
         //store in local storage
         //retrieve data when page is refreshed
