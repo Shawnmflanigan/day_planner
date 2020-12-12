@@ -21,11 +21,11 @@ This project is created with:
 - [HTML](https://html.com/)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [Javascript](https://www.javascript.com/)
-- [jQuery] (https://jquery.com/)
-- [moment.js] (https://momentjs.com/)
-- [bootstrap] (https://getbootstrap.com/)
-- [googleapis] (https://developers.google.com/apis-explorer)
-- [fontawesome] (https://fontawesome.com/)
+- [jQuery](https://jquery.com/)
+- [moment.js](https://momentjs.com/)
+- [bootstrap](https://getbootstrap.com/)
+- [googleapis](https://developers.google.com/apis-explorer)
+- [fontawesome](https://fontawesome.com/)
 ## Next Steps
 - Retrieve local storage to populate to page. 
 - Use fontawesome icons for save button.
