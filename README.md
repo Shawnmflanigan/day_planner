@@ -1,14 +1,14 @@
-# # This is a simple day planner
+# This is a simple day planner
 ## Table of contents
 - [General Info](#general-info)
 - [Technologies](#technologies)
-- [Next_Steps] (#Next Steps)
+- [Next Steps](#next-Steps)
 - [Author](#author)
 ## General Info
 This is a simple day planner which meets the following conditions:
 * Functional, deployed application
 * GitHub repository with README describing the project
-* User can save events for each hour which will dynamically update the HTML & CSS using jQuery.
+* User can save events for eagich hour which will dynamically update the HTML & CSS using jQuery.
 * Use of moment.js to access current time, date, and day.
 * Current day displayed at top of screen.
 * Time blocks are color coded to indicate past, present, and future.
