@@ -22,7 +22,6 @@ function compareTime() {
             $(this).removeClass('past')
             $(this).removeClass('present');
         }
-
     }) 
     console.log(currentTime)
 }
@@ -38,11 +37,26 @@ $('.saveBtn').on('click', function() {
     
     var time = $(this).siblings('.hour' ).text();
 //store in local storage
-    
-   localStorage.setItem(time, value);
 
+   localStorage.setItem(time, value);
 })
 
+console.log(localStorage.getItem('8:00'));
+       
+//retrieve data when page is refreshed
+$('#eight').val(localStorage.getItem('8:00'));
+$('#nine').val(localStorage.getItem('9:00'));
+$('#ten').val(localStorage.getItem('10:00'));
+$('#eleven').val(localStorage.getItem('11:00'));
+$('#twelve').val(localStorage.getItem('12:00'));
+$('#one').val(localStorage.getItem('1:00'));
+$('#two').val(localStorage.getItem('2:00'));
+$('#three').val(localStorage.getItem('3:00'));
+$('#four').val(localStorage.getItem('4:00'));
+$('#five').val(localStorage.getItem('5:00'));
 
-        //store in local storage
-        //retrieve data when page is refreshed
+
+
+
+
+
