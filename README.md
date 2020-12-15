@@ -27,7 +27,7 @@ This project is created with:
 - [googleapis](https://developers.google.com/apis-explorer)
 - [fontawesome](https://fontawesome.com/)
 ## Next Steps
-- Retrieve local storage to populate to page. 
 - Use fontawesome icons for save button.
+- Refresh saved information at hour = 0
 ## Author
 - Shawn Flanigan
